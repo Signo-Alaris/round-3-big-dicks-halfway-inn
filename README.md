@@ -1,3 +1,4 @@
+# THE WINNER OF ROUND 3 IS ROMULUS!
 # Coding Challenge 3 - Big Dicks Halfway Inn
 Challenge: Richard runs an inn, and he needs your help! In this challenge, the task is to debug the provided code to successfully execute all provided main tests.
 
@@ -251,4 +252,6 @@ Sample Output: ![](./images/jarek.png)
 1. Solves the challenge
 
 **Cons**
-1. What is the reasoning behind having get_price, calculate_base_room_price
+1. What is the reasoning behind having get_price separate from calculate_base_room_price?
+1. Virtual is unnecessary for the calculate_base_room_price
+1. Over-engineered
