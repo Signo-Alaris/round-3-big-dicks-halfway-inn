@@ -90,10 +90,10 @@ Sample Output: ![](./images/romulus.png)
 
 **Pros**
 1. Renamed variables to use hungarian notation e.g. m_bedroom to show it's a member variable
-1. 
+1. Both solutions are clear and concise
 
 **Cons**
-1. 
+1. "The following #if statement is a preprocessor definition..." states the obvious e.g. "The following while statement is a loop, loops are used in C++ to..."
 
 ## Matt
 ```cpp
@@ -152,10 +152,12 @@ public:
 Sample Output: ![](./images/matt.png)
 
 **Pros**
-1. 
+1. Implements a degree of input validation and protects against smart bastards reducing prices by charging negative bedrooms/bathrooms
 
 **Cons**
-1. 
+1. Assert seems like overkill?
+1. The try/catch seems unnecessary
+1. "bathrooms_ = bathrooms" and "bedrooms_ = bedrooms" can be bundled as they're of no use if one progresses without the other
 
 ## Trevor
 ```cpp
@@ -196,15 +198,11 @@ public:
 Sample Output: ![](./images/trevor.png)
 
 **Pros**
-1. Works for simple palindromes e.g. racecar
+1. Does comment
 
 **Cons**
-1. Gave two isPalindrome() functions
-1. Couldn't follow the logic by reading the code
-1. Variable names a serious problem - "input"
-1. Fails on palindromic sentences
-1. Fails on symbols for an unidentifiable reason
-1. Doesn't account for capitals
+1. Compilation errors from minor typos
+1. The comments are unnecessary
 
 ## Jarek
 ```cpp
@@ -250,7 +248,7 @@ private:
 Sample Output: ![](./images/jarek.png)
 
 **Pros**
-1. 
+1. Clear
 
 **Cons**
-1. 
+1. What is the reasoning behind having get_price, calculate_base_room_price
