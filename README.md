@@ -15,7 +15,6 @@ Debug the existing HotelRoom and HotelApartment class implementations so that th
 
 ## Everyone
 **Pros**
-1. Solved the challenge
 1. Didn't edit main
 
 ## Romulus
@@ -88,6 +87,7 @@ Sample Output: ![](./images/romulus.png)
 **Pros**
 1. Renamed variables to use hungarian notation e.g. m_bedroom to show it's a member variable
 1. Both solutions are clear and concise
+1. Solves the challenge
 
 **Cons**
 1. "The following #if statement is a preprocessor definition..." states the obvious e.g. "The following while statement is a loop, loops are used in C++ to..."
@@ -151,6 +151,7 @@ Sample Output: ![](./images/matt.png)
 
 **Pros**
 1. Implements a degree of input validation and protects against smart bastards reducing prices by charging negative bedrooms/bathrooms
+1. Solves the challenge
 
 **Cons**
 1. Assert seems like overkill?
@@ -247,6 +248,7 @@ Sample Output: ![](./images/jarek.png)
 
 **Pros**
 1. Clear
+1. Solves the challenge
 
 **Cons**
 1. What is the reasoning behind having get_price, calculate_base_room_price
