@@ -1,5 +1,4 @@
-# THE WINNER OF ROUND 2 IS TREVOR!
-# Coding Challenge 2 - Big Dicks Halfway Inn
+# Coding Challenge 3 - Big Dicks Halfway Inn
 Challenge: Richard runs an inn, and he needs your help! In this challenge, the task is to debug the provided code to successfully execute all provided main tests.
 
 The given code defines two classes HotelRoom and HotelApartment denoting respectively a standard hotel room and a hotel apartment. An instance of any of these classes has two parameters: bedrooms and bathrooms denoting respectively the number of bedrooms and the number of bathrooms in the room.
@@ -23,7 +22,7 @@ Debug the existing HotelRoom and HotelApartment class implementations so that th
 1. 
 
 ## Romulus
-```
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -90,13 +89,14 @@ public:
 Sample Output: ![](./images/romulus.png)
 
 **Pros**
+1. Renamed variables to use hungarian notation e.g. m_bedroom to show it's a member variable
 1. 
 
 **Cons**
 1. 
 
 ## Matt
-```
+```cpp
 #include <iostream>
 #include <vector>
 #include <assert.h> 
@@ -158,7 +158,7 @@ Sample Output: ![](./images/matt.png)
 1. 
 
 ## Trevor
-```
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -207,7 +207,7 @@ Sample Output: ![](./images/trevor.png)
 1. Doesn't account for capitals
 
 ## Jarek
-```
+```cpp
 #include <iostream>
 #include <vector>
 
