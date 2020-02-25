@@ -18,9 +18,6 @@ Debug the existing HotelRoom and HotelApartment class implementations so that th
 1. Solved the challenge
 1. Didn't edit main
 
-**Cons**
-1. 
-
 ## Romulus
 ```cpp
 #include <iostream>
@@ -94,6 +91,7 @@ Sample Output: ![](./images/romulus.png)
 
 **Cons**
 1. "The following #if statement is a preprocessor definition..." states the obvious e.g. "The following while statement is a loop, loops are used in C++ to..."
+1. "Most obvious approach" - doesn't explain why the solution is more obvious or inferior(if it is)
 
 ## Matt
 ```cpp
